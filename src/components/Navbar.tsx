@@ -20,7 +20,7 @@ const Navbar = () => {
     },
     {
       name: "Academics",
-      path: "/academics",
+      path: "/student-portal",
       dropdown: ["Programs", "Departments", "Faculty", "Research"],
     },
     {
@@ -33,7 +33,7 @@ const Navbar = () => {
       path: "/campus-life",
       dropdown: ["Facilities", "Hostels", "Activities", "Clubs"],
     },
-    { name: "Placements", path: "/placements" },
+    { name: "Placements", path: "/student-portal/placements" },
     { name: "Contact", path: "/contact" },
   ];
 
