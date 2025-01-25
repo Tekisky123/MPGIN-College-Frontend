@@ -14,7 +14,7 @@ const PopupModal = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 10000); // Auto-hide after 10 seconds (optional)
+    }, 50000); // Auto-hide after 10 seconds (optional)
     return () => clearTimeout(timer);
   }, []);
 
